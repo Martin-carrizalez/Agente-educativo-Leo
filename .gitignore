@@ -1,0 +1,78 @@
+# ============================================================================
+# .gitignore para Lectura AI - Archivos a OCULTAR de GitHub
+# ============================================================================
+
+# 🔑 ARCHIVOS DE SECRETS (CRÍTICO - API KEYS)
+.streamlit/secrets.toml
+.env
+*.env
+.env.local
+.env.production
+
+# 🐍 ARCHIVOS DE PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 📦 VIRTUAL ENVIRONMENTS
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# 💻 ARCHIVOS DEL SISTEMA
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+
+# 📊 ARCHIVOS DE DATOS (Si los agregas después)
+*.db
+*.sqlite
+*.sqlite3
+data/
+logs/
+*.log
+
+# 🔧 ARCHIVOS TEMPORALES DE STREAMLIT
+.streamlit/config.toml
+
+# 📝 ARCHIVOS DE RESPALDO Y TEMPORALES
+*.bak
+*.tmp
+*.temp
+*~
+.cache/
+
+# 🚫 ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# Si creas archivos de configuración local
+config_local.py
+test_*.py
+debug_*.py
